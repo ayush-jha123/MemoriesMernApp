@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev":"nodemon index.js",
+    "dev":"npm-run-all -p build start",
     "start": "node index.js",
     "build":"npm i"
   },
